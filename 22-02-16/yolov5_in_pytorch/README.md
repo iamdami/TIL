@@ -7,3 +7,4 @@ Reference
 - [PyTorch get started](https://pytorch.org/get-started/locally/)  
 - [YOLOv5 Documentation - Train Custom Data](https://docs.ultralytics.com/tutorials/train-custom-datasets/)  
 - [label img](https://github.com/tzutalin/labelImg)  
+- [How to Train YOLOv5 On a Custom Dataset](https://blog.roboflow.com/how-to-train-yolov5-on-a-custom-dataset/)  
