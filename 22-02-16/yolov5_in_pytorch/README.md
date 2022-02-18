@@ -1,4 +1,6 @@
-- [YOLOv5 in PyTorch](https://damio.tistory.com/97)  
+- [YOLOv5 in PyTorch - Train Custom Data #1](https://damio.tistory.com/97)  
+- [YOLOv5 in PyTorch - Train Custom Data #2](https://damio.tistory.com/98)  
+
 블로그에 정리해 두었다!  
   
 Reference
