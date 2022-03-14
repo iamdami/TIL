@@ -1,0 +1,16 @@
+Ref.
+
+- [Optimization for Deep Learning](https://sonsnotation.blogspot.com/2020/11/6-optimization-for-deep-learning.html)  
+- [Generalization, Optimization](https://yongku.tistory.com/entry/%EB%94%A5%EB%9F%AC%EB%8B%9D%EA%B3%BC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9D%BC%EB%B0%98%ED%99%94Generalization%EC%99%80-%EC%B5%9C%EC%A0%81%ED%99%94Optimization)  
+- [Optimizer](https://heeya-stupidbutstudying.tistory.com/37)  
+- [What are hyperparameters in Neural Networks and what it means to tune them?](https://www.quora.com/What-are-hyperparameters-in-Neural-Networks-and-what-it-means-to-tune-them)  
+- [Loss Function vs Cost Function vs Objective Function](https://ggodong.tistory.com/15)  
+- [비용함수, 손실함수, 목적함수](https://velog.io/@regista/%EB%B9%84%EC%9A%A9%ED%95%A8%EC%88%98Cost-Function-%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98Loss-function-%EB%AA%A9%EC%A0%81%ED%95%A8%EC%88%98Objective-Function-Ai-tech)  
+- [Loss Function](https://needjarvis.tistory.com/567)  
+- [Loss function에 대해](https://blog.naver.com/PostView.naver?blogId=vail131&logNo=222476383104)  
+- [Linear Regression - 선형회귀의 평가 지표, MAE, MSE, RMSE, R Squared](https://velog.io/@dlskawns/Linear-Regression-%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80%EC%9D%98-%ED%8F%89%EA%B0%80-%EC%A7%80%ED%91%9C-MAE-MSE-RMSE-R-Squared-%EC%A0%95%EB%A6%AC)  
+- [Cross-entropy 의 이해: 정보이론과의 관계](https://3months.tistory.com/436)  
+- [왜 크로스 엔트로피를 쓸까?](https://theeluwin.postype.com/post/6080524)  
+- [손실함수 (loss function) 종류 및 정리](https://didu-story.tistory.com/27)  
+- [Linear Regression](https://ko.d2l.ai/chapter_deep-learning-basics/linear-regression.html)  
+- [Sigmoid Softmax](https://feel0804.tistory.com/6)  
