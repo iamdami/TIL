@@ -2,14 +2,14 @@ import cv2
 from numpy import source
 
 source = cv2.VideoCapture("night.mp4")
-ret, img = source.read()
-while True:
 
+while True:
+    ret, img = source.read()
     if not ret:
         print("can't read video")
         break
 
-    gray = cv2.cvtColor(img, cv2.COLOR_BAYER_BG2GRAY)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     cv2.imshow("nightGray", gray)
 
