@@ -27,7 +27,7 @@
   - How to calculate and implement average and maximum pooling in a convolutional neural network.  
   - How to use global pooling in a convolutional neural network.  
 - [Source code for bob.learn.pytorch.architectures.LightCNN](https://www.idiap.ch/software/bob/docs/bob/bob.learn.pytorch/stable/_modules/bob/learn/pytorch/architectures/LightCNN.html)  
-  - light cnn 코드 비슷한뎅 원래 있는 모델인가
+  - https://github.com/AlfredXiangWu/LightCNN 찾았어요 선생님...
 
 
 <br>
