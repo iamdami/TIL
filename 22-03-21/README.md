@@ -1,4 +1,6 @@
 - [CNN BottleNeck](https://coding-yoon.tistory.com/116)  
+  - 복잡도 증가시키지 않기 위해 효과적으로 사용  
+  - 작은 kernel 사용함으로서 parameter 수 감소시킴  
 - [Does MaxPooling reduce overfitting?](https://stackoverflow.com/questions/59717290/does-maxpooling-reduce-overfitting)  
   - 응 절대 아니지~  
   <pre>DONT use max pooling for the purpose of reducing overfitting 
