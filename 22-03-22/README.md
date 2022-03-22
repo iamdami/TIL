@@ -1,0 +1,21 @@
+- [Regularization 참고하기 좋은 이미지](https://22-22.tistory.com/39)  
+![Regularization](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpN9NC%2FbtqEnho9edo%2FrzOpxkMICg9civFvYwWW3K%2Fimg.png)  
+  - 우리가 기대하는 일반성 띈 모델: 가운데의 2차함수 모양 함수  
+  - 왼쪽 모델: 함수 차수 너무 적어 모델이 너무 간단함  
+  - 오른쪽 모델: 차수 너무 커 모델이 너무 복잡함  
+- [whitening? batch nomalization](https://eehoeskrap.tistory.com/430)  
+  - whitening(백색 잡음): 각 레이어의 입력과 분산을 평균 0, 표준편차 1인 입력 값으로 정규화 시키는 방법  
+  - batch nomalization(배치 정규화): 평균과 분산 조정하는 과정이 별도 과정으로 떼어진 것이 아니라, 신경망 안에 포함되어 학습 시 평균과 분산 조정하는 과정도 같이 조절됨, 각 레이어마다 정규화하는 레이어 두어 변형된 분포 나오지 않도록 조절하는 것  
+- [Weight Normalization](https://subinium.github.io/introduction-to-normalization/)  
+  - mini-batch 정규화 하는 것이 아니라 layer의 가중치를 정규화  
+- [Layer Normalization](https://jeongukjae.github.io/posts/layer-normalization/)  
+  - neuron의 output들의 평균, 분산 맞추어 주면서 정규화  
+- [pruning](https://velog.io/@ganta/Pruning)  
+- [pruning 잘 정리된 블로그](https://blogik.netlify.app/BoostCamp/U_stage/45_pruning/)  
+- ![image](https://user-images.githubusercontent.com/50016477/159390974-127014d4-4f4f-42a3-8bde-2de1b9d867fe.png)  
+  - model 학습 시 중요한 parameter는 살리고 그렇지 않은 parameter는 덜어냄  
+  - Pruning은 한번 잘라낸 가지 다시 복원하지 않지만, Dropout은 weight 사용을 껐다 켰다 반복  
+- [CNN - Feature Map and Filter Visualization](https://towardsdatascience.com/convolutional-neural-network-feature-map-and-filter-visualization-f75012a5a49c)  
+  - The feature map on CNN is the output of one filter applied to the previous layer  
+- [CNN 참고용](https://keeper.tistory.com/5)  
+- [FC 참고용](https://velog.io/@jaehyeong/%ED%95%A9%EC%84%B1%EA%B3%B1-%EC%8B%A0%EA%B2%BD%EB%A7%9DConvNet-Convolutional-Neural-Network)  
