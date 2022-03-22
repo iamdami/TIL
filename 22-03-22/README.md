@@ -19,3 +19,6 @@
   - The feature map on CNN is the output of one filter applied to the previous layer  
 - [CNN 참고용](https://keeper.tistory.com/5)  
 - [FC 참고용](https://velog.io/@jaehyeong/%ED%95%A9%EC%84%B1%EA%B3%B1-%EC%8B%A0%EA%B2%BD%EB%A7%9DConvNet-Convolutional-Neural-Network)  
+- [Which activation function for output layer?](https://stats.stackexchange.com/questions/218542/which-activation-function-for-output-layer)  
+  - 혹시나 output layer에 softmax 말고 다른 activation function 사용할 수 있나 했는데  
+    특정 상황 제외하면 예전에 둘러본 것과 같이 regression->linear, classification->softmax 이게 그냥 당연시 되는 듯  
