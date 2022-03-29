@@ -22,7 +22,7 @@ Color Segmentation
 - [youtube video for link above](https://www.youtube.com/watch?v=a3zaOZ5n-KM)  
 <br>
 
-![colorClassification](./img/colorClassification.png)  
+![colorClassification](../img/colorClassification.png)  
 - [Object-Detection 등 실습 예제](https://wordbe.tistory.com/entry/Object-Detection-%EC%98%88%EC%A0%9C-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C%ED%8F%AC%ED%95%A8-Pytorch)  
 - [Segmentation with Mask R-CNN](https://medium.com/neuromation-blog/neuronuggets-segmentation-with-mask-r-cnn-c76d363b67fb)  
 - [When Person Re-identification Meets Changing Clothes](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.pdf)  
