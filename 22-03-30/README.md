@@ -41,3 +41,6 @@ Cloth Segmentation and Classification
 ### Ref.
 - [Fish Classification With Pytorch Resnet](https://blacksuan19.dev/projects/fish-classification-with-pytorch-resnet/)  
   이건 담에 해보면 재밌겠당  
+- [Segment clothes](https://clothssegmentation.herokuapp.com/)  
+  직접 넣은 input image에 대한 Segmentation 결과 볼 수 있는 웹앱  
+  
