@@ -1,6 +1,9 @@
 ## Clothing Detection
 - [Clothing Detection for Fashion Recommendation](https://valohai.com/blog/clothes-detection-for-fashion-recommendation/)  
 
+## instance segmentation
+- [instance segmentation](https://ganghee-lee.tistory.com/44)  
+
 ## Detection dataset
 - [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)  
   - dataset containing around 800K diverse fashion images with their rich annotations (46 categories, 1,000 descriptive attributes, bounding boxes and landmark information) ranging from well-posed product images to real-world-like consumer photos.  
