@@ -14,3 +14,7 @@
 
 - [Faster R-CNN 논문 리뷰 및 코드 구현](https://velog.io/@skhim520/Faster-R-CNN-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84)  
 - [Faster R-CNN 논문 리뷰](https://yeomko.tistory.com/17)  
+
+## Color recognition
+Color recognition 으로 서치하니까 좀 더 괜찮은 아이디어들이 많은 것 같당  
+- [Color recognition](https://github.com/ahmetozlu/color_recognition)  
