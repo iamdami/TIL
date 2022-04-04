@@ -41,4 +41,12 @@ This process is repeated until there are no more proposals left in B.
 - glob.glob  
   - 검색시 사용했던 경로명까지 전부 가져옴  
   - ```['./test/testdira', './test/eq.js', './test/test.db']```  
+<br>
 
+## Ref.
+- [Pytorch에서 학습한 모델 저장 및 불러오기](https://justkode.kr/deep-learning/pytorch-save)  
+- [torch.no_grad()](https://easy-going-programming.tistory.com/14)  
+  - Use of Torch.no_grad():  
+    To perform inference without Gradient Calculation.  
+    To make sure there's no leak test data into the model.  
+- [RetinaFace 논문 읽기](https://tistory-nari.tistory.com/63)  
