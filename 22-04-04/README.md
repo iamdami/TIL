@@ -28,4 +28,17 @@ This process is repeated until there are no more proposals left in B.
 ## LFW
 - [retinaface test1](https://github.com/AlexandrWh/FaceID/blob/120cba62db56da696a1ef970fa8b0f4f1a81cd3e/retinaface/detector.py)  
 - [retinaface test2](https://intrepidgeeks.com/tutorial/pytorch-retinaface-test)  
-- 
+
+<br>
+
+## os.listdir, glob.glob
+특정 폴더의 특정 파일 리스트 가져오기  
+
+### 차이점  
+- os.listdir  
+  - 해당 디렉토리 파일명만 가져옴  
+  - ```['testdira', 'eq.js', 'test.db']```
+- glob.glob  
+  - 검색시 사용했던 경로명까지 전부 가져옴  
+  - ```['./test/testdira', './test/eq.js', './test/test.db']```  
+
