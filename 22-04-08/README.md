@@ -1,0 +1,2 @@
+- [RefineDet paper review](https://junha1125.github.io/blog/artificial-intelligence/2021-02-03-RefineDetwithCode/)  
+- VoVNet seminar했당,,,,,,,후 (●'◡'●)
