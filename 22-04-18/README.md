@@ -20,7 +20,8 @@ from pycocotools.coco import COCO
 coco = COCO('.json')
 ```
 <br>
-- [COCO json file 깔끔하게 보기@@](https://velog.io/@dkdk6638/Pytorch-COCO-Dataset)  
+
+- [COCO json file 깔끔하게 보기](https://velog.io/@dkdk6638/Pytorch-COCO-Dataset)  
 - https://stedolan.github.io/jq/  
 <br>
 
