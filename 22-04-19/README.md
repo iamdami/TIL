@@ -40,4 +40,17 @@ such as hierarchical (grammar) models and models involving latent three dimensio
 
 ### DRM Reference
 - [Lec21-Deformable Part Models](https://www.cs.ucf.edu/~bagci/teaching/computervision16/Lec21.pdf)  
+<br>
 
+### video analysis
+조사 중인데 color model에도 적용할 수 있을 것 같은 reference 찾았다
+![image](https://user-images.githubusercontent.com/50016477/163952446-5891c856-e665-4be1-8e16-4bc67a02501c.png)  
+
+This is a very powerful technique, and it only uses computer vision. We don’t need a single neural network to do this. To summarize this process:
+1. We receive the initial object to track using a bounding box  
+2. We compute a color histogram of this object  
+3. We compute the color of the background (near the object)  
+4. we remove the object color from the total image  
+5. We now have a color-based obstacle tracker  
+6. 
+--- 나머지 조사 내용은 월요일에! ---
