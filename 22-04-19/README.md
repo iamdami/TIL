@@ -52,5 +52,6 @@ This is a very powerful technique, and it only uses computer vision. We don’t 
 3. We compute the color of the background (near the object)  
 4. we remove the object color from the total image  
 5. We now have a color-based obstacle tracker  
-6. 
+<br>
+
 --- 나머지 조사 내용은 월요일에! ---
