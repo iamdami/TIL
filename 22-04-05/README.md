@@ -3,7 +3,8 @@
 
 ## ResNet
 - [ResNet — Understand and Implement from scratch](https://medium.com/analytics-vidhya/resnet-understand-and-implement-from-scratch-d0eb9725e0db)  
-세상엔 똑똑한 사람들이 많답니다,,  
+- [ResNet !!!](https://m.blog.naver.com/laonple/220793640991)  
+
 <br>
 
 ## DenseNet
