@@ -2,7 +2,8 @@ Ref.
 ===
 
 - [CNN - pooling, flatten](https://hwanine.github.io/ai/CNN2/)  
-- [CNN 정리 잘 되어있는 블로그](https://dhhwang89.tistory.com/89)  
+- [CNN 정리 잘 되어있는 블로그1](https://dhhwang89.tistory.com/89)  
+- [CNN 정리 잘 되어있는 블로그2](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)  
 - [Fully Connected vs Convolutional Neural Networks](https://medium.com/swlh/fully-connected-vs-convolutional-neural-networks-813ca7bc6ee5)  
 ![image](https://user-images.githubusercontent.com/50016477/159254652-43024cf5-22a8-4bfa-bf38-65f0f184898d.png)
 ![image](https://user-images.githubusercontent.com/50016477/159254725-7ee019e7-f924-44a8-b472-941a2f22f21b.png)
