@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/59007475/extract-a-frame-at-a-specific-time-of-a-video-and-insert-a-text-opencv-python  
+- https://stackoverflow.com/questions/26392336/importing-images-from-a-directory-python-to-list-or-dictionary  
