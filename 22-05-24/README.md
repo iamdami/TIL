@@ -31,4 +31,9 @@ with open('data.json', 'w') as f:
 
 ## request.remote_addr
 python flask 접속자 IP check  
+<br>
 
+## split(separator, maxsplit)
+maxsplit = 1이면 최대 1회까지만 문자열 나눔  
+maxsplit = 1이면 최대 2회까지,
+maxsplit = -1이면 제한없이 문자열 나눔  
