@@ -9,3 +9,5 @@
 
 <br>
 
+## ML Pipeline
+- [한국에너지기술연구원 AI 학습조직 강의](https://jehyunlee.github.io/2022/05/24/Python-DS-101-kierlecture2/)  
