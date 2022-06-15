@@ -42,3 +42,6 @@ os.path.dirname(filename) - 디렉토리 경로 추출
 os.path.split(filename) - 경로와 파일명을 분리  
 os.path.splitdrive(filename) - 드라이브명과 나머지 분리 (MS Windows의 경우)  
 os.path.splitext(filename) - 확장자와 나머지 분리  
+
+## MSCOCO label class 80? 91?
+https://eehoeskrap.tistory.com/368
