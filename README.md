@@ -2,4 +2,9 @@
 Today I Learned..
 <br>
 
-- [코드 비교하기 좋은 사이트](https://www.diffchecker.com/diff)  
+## site for comparing two source codes
+- [diffchecker](https://www.diffchecker.com/diff)  
+
+## sites for getting dataset  
+- [zdataset](https://zdataset.com/)  
+- [data.world](https://data.world/datasets)  
