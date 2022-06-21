@@ -25,7 +25,7 @@ def getImagesFromClassName(className):
         image_file_name = im['file_name']
         label_file_name = im['file_name'].split('.')[0] + '.txt'
 
-        fileExists = os.path.exists(f'downloaded_images/person/{image_file_name}') and os.path.exists(f'downloaded_images/{className}/{image_file_name}')
+        fileExists = os.path.exists(f'downloaded_images/person/{image_file_name}') or os.path.exists(f'downloaded_images/{className}/{image_file_name}')
         
         if(os.path.exists(f'downloaded_images/person/{image_file_name}')):
             annIds = coco.getAnnIds(imgIds=im['id'], catIds=catIds, iscrowd=None)
