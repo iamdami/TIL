@@ -26,7 +26,30 @@ def getImagesFromClassName(className):
         label_file_name = im['file_name'].split('.')[0] + '.txt'
 
         fileExists = os.path.exists(f'downloaded_images/person/{image_file_name}') and os.path.exists(f'downloaded_images/{className}/{image_file_name}')
-        if(not fileExists):
+        
+        if(os.path.exists(f'downloaded_images/person/{image_file_name}')):
+            annIds = coco.getAnnIds(imgIds=im['id'], catIds=catIds, iscrowd=None)
+            anns = coco.loadAnns(annIds)    
+            print(f"{className}. appending - {image_file_name}")
+            s = ""
+            for i in range(len(anns)):
+                # Yolo Format
+                topLeftX = anns[i]['bbox'][0] / im['width']
+                topLeftY = anns[i]['bbox'][1] / im['height']
+                width = anns[i]['bbox'][2] / im['width']
+                height = anns[i]['bbox'][3] / im['height']
+
+                s += "1 " + str((topLeftX + (topLeftX + width)) / 2) + " " + \
+                str((topLeftY + (topLeftY + height)) / 2) + " " + \
+                str(width) + " " + \
+                str(height) + "\n"
+            
+            with open(f'downloaded_images/temp/{label_file_name}', 'w') as label_handler:
+                label_handler.write(s)  # save overlapped label
+            with open(f'downloaded_images/person/{label_file_name}', 'a') as label_handler:
+                label_handler.write(s)  # save label only
+
+        elif(not fileExists):
             img_data = requests.get(im['coco_url']).content
             annIds = coco.getAnnIds(imgIds=im['id'], catIds=catIds, iscrowd=None)
             anns = coco.loadAnns(annIds)    
@@ -39,39 +62,16 @@ def getImagesFromClassName(className):
                 width = anns[i]['bbox'][2] / im['width']
                 height = anns[i]['bbox'][3] / im['height']
 
-                s += "0 " + str((topLeftX + (topLeftX + width)) / 2) + " " + \
+                s += "1 " + str((topLeftX + (topLeftX + width)) / 2) + " " + \
                 str((topLeftY + (topLeftY + height)) / 2) + " " + \
                 str(width) + " " + \
                 str(height) + "\n"
             
             with open(f'downloaded_images/{className}/{image_file_name}', 'wb') as image_handler:
-                image_handler.write(img_data)
+                image_handler.write(img_data)  # save image
             with open(f'downloaded_images/{className}/{label_file_name}', 'w') as label_handler:
-                label_handler.write(s)
+                label_handler.write(s)  # save label
         
-        elif(os.path.exists(f'downloaded_images/person/{image_file_name}')):
-            annIds = coco.getAnnIds(imgIds=im['id'], catIds=catIds, iscrowd=None)
-            anns = coco.loadAnns(annIds)    
-            print(f"{className}. Downloading - {image_file_name}")
-            s = ""
-            for i in range(len(anns)):
-                # Yolo Format: center-x center-y width height
-                topLeftX = anns[i]['bbox'][0] / im['width']
-                topLeftY = anns[i]['bbox'][1] / im['height']
-                width = anns[i]['bbox'][2] / im['width']
-                height = anns[i]['bbox'][3] / im['height']
-
-                s += "0 " + str((topLeftX + (topLeftX + width)) / 2) + " " + \
-                str((topLeftY + (topLeftY + height)) / 2) + " " + \
-                str(width) + " " + \
-                str(height) + "\n"
-            
-            with open(f'downloaded_images/temp/{label_file_name}', 'w') as label_handler:
-                label_handler.write(s)
-
-            with open(f'downloaded_images/person/{label_file_name}', 'a') as label_handler:
-                label_handler.write(s)
-
         else:
            print(f"{className}. {image_file_name} - Already Downloaded.")
 
