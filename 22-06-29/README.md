@@ -14,6 +14,7 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
 TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale)  
 - [paper review - ATTENTION-IS-ALL-YOU-NEED](https://hipgyung.tistory.com/entry/ATTENTION-IS-ALL-YOU-NEED-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0)  
 - [kaggle - vit-tutorial-baseline](https://www.kaggle.com/code/abhinand05/vision-transformer-vit-tutorial-baseline/notebook)  
-- [hands-on-guide-to-using-ViT-for-image-classification](https://analyticsindiamag.com/hands-on-guide-to-using-vision-transformer-for-image-classification/)  
+- [hands-on-guide-to-using-ViT-for-image-classification - keras](https://analyticsindiamag.com/hands-on-guide-to-using-vision-transformer-for-image-classification/)  
+- [hands-on-guide-to-using-ViT-for-image-classification - pytorch](https://analyticsindiamag.com/hands-on-vision-transformers-with-pytorch/)  
 
 [LeViT : a Vision Transformer in ConvNet's Clothing for Faster Inference](https://github.com/facebookresearch/LeViT)  
