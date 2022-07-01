@@ -7,6 +7,14 @@
 
 ![image](https://user-images.githubusercontent.com/50016477/176384438-7a4637e9-bd5c-481e-ac86-891f372814f9.png)
 
+## Transformer in Vision Domain
+[Transformer in Vision Domain](https://lih-verma.medium.com/transformer-in-vision-domain-4173bea5fcb8)  
+
+## differences between ViT and CNN in detail
+![image](https://user-images.githubusercontent.com/50016477/176797766-9a9a4b42-bd0c-4ac2-8174-1f91c857c2b4.png)
+- [do-vision-transformers-see-like-convolutional-neural-networks-paper-explained](https://towardsdatascience.com/do-vision-transformers-see-like-convolutional-neural-networks-paper-explained-91b4bd5185c8)  
+
+<br>
 
 [paper - AN IMAGE IS WORTH 16X16 WORDS:
 TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)  
