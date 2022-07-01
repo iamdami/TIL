@@ -16,6 +16,8 @@
 
 <br>
 
+[illustrated transformer](https://jalammar.github.io/illustrated-transformer/)  
+
 [paper - AN IMAGE IS WORTH 16X16 WORDS:
 TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)  
 - [paper review -  AN IMAGE IS WORTH 16X16 WORDS:
@@ -26,3 +28,5 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://hipgyung.tistory.com/entry/
 - [hands-on-guide-to-using-ViT-for-image-classification - pytorch](https://analyticsindiamag.com/hands-on-vision-transformers-with-pytorch/)  
 
 [LeViT : a Vision Transformer in ConvNet's Clothing for Faster Inference](https://github.com/facebookresearch/LeViT)  
+
+[einops doc](https://github.com/arogozhnikov/einops/)  
