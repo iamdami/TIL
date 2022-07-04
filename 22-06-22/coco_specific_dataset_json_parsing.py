@@ -30,8 +30,8 @@ for anno in loadJson['annotations']:
 
         centerX = ((minX+maxX)/2)/w
         centerY = ((minY+maxY)/2)/h
-        centerW = ((minX+maxX)/2)/w
-        centerH = ((minX+maxX)/2)/h
+        centerW = width/w
+        centerH = height/h
 
         bboxPT = [centerX, centerY, centerW, centerH]
 
