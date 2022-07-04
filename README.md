@@ -26,3 +26,7 @@ Today I Learned..
 
 ## Vision Transformer(ViT)  
 - [[repo] ViT](https://github.com/iamdami/TIL/blob/main/22-06-29/README.md)  
+
+### Paper Review
+- [ViT_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/ViT_paperReview.pdf)  
+- [Transformer_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/transformer_paperReview.pdf)  
