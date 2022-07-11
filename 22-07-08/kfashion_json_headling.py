@@ -268,13 +268,13 @@ for i, allJson in enumerate(allJsonList[:2000]):
             if not bottomLabel in bottomLengthList:
                 bottomLengthList.append(bottomLabel)
 
-        # opsLabel(length)
+        # outerLabel(length)
         if k == '아우터' and cat in ['재킷', '점퍼', '코트']:
             outerLabel = f"{length}_{cat}"
             if not outerLabel in outerLengthList:
                 outerLengthList.append(outerLabel)
 
-        # outerLabel(length)
+        # opsLabel(length)
         if k == '원피스' and cat in ['드레스']:
             opsLabel = f"{length}_{cat}"
             if not opsLabel in opsLengthList:
