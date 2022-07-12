@@ -245,7 +245,7 @@ for i, allJson in enumerate(allJsonList[1450:1460]):
         if len(labelDict) == 0:
             continue
         
-        btmcatRT = jsonData['데이터셋 정보']['데이터셋 상세설명']['라벨링'][k]
+        btmcatRT = jsonData['데이터셋 정보']['데이터셋 상세설명']['라벨링'][k][0]
         if not '카테고리' in btmcatRT:
             continue
         if not '프린트' in btmcatRT:
