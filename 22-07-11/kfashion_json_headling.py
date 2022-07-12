@@ -246,19 +246,19 @@ for i, allJson in enumerate(allJsonList[1450:1460]):
             continue
         
         btmcatRT = jsonData['데이터셋 정보']['데이터셋 상세설명']['라벨링'][k]
-        if not '카테고리' in catRT:
+        if not '카테고리' in btmcatRT:
             continue
-        if not '프린트' in catRT:
+        if not '프린트' in btmcatRT:
             continue
-        if not '색상' in catRT:
+        if not '색상' in btmcatRT:
             continue
-        if not '기장' in catRT:
+        if not '기장' in btmcatRT:
             continue
 
-        color = catRT['색상']
-        cat = catRT['카테고리']
-        length = catRT['기장']
-        printPattern = catRT['프린트'][0]
+        color = btmcatRT['색상']
+        cat = btmcatRT['카테고리']
+        length = btmcatRT['기장']
+        printPattern = btmcatRT['프린트'][0]
 
         if color == '스카이블루':
             color = '블루'
