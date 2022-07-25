@@ -1,0 +1,1 @@
+- [MSCOCO format VS. Pascal VOC format](https://towardsdatascience.com/coco-data-format-for-object-detection-a4c5eaf518c5#:~:text=Pascal%20Visual%20Object%20Classes(VOC)&text=Pascal%20VOC%20is%20an%20XML,for%20training%2C%20testing%20and%20validation.)  
