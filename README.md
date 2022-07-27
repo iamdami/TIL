@@ -22,6 +22,8 @@ Today I Learned..
   - pascal voc also included in the link to site on README.md  
   - [pascal voc -> yolo](https://towardsdatascience.com/convert-pascal-voc-xml-to-yolo-for-object-detection-f969811ccba5)  
 
+## test
+- [draw rectangle yolo bbox value](https://github.com/iamdami/TIL/blob/main/22-06-13/YoloRecImg.py)  
 
 ## MSCOCO headling
 - [coco dataset download on terminal](https://gist.github.com/mkocabas/a6177fc00315403d31572e17700d7fd9?permalink_comment_id=4172927#gistcomment-4172927)  
