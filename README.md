@@ -20,6 +20,7 @@ Today I Learned..
   - json -> yolo  
   - yolo -> .csv  
   - pascal voc also included in the link to site on README.md  
+  - [pascal voc -> yolo](https://towardsdatascience.com/convert-pascal-voc-xml-to-yolo-for-object-detection-f969811ccba5)  
 
 
 ## MSCOCO headling
