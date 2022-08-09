@@ -40,6 +40,7 @@ Today I Learned..
 ## Paper Review
 - [ViT_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/ViT_paperReview.pdf)  
 - [Transformer_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/transformer%20paperReview.pdf)  
+- [A survey on Moving Object Detection and Tracking Methods_review](https://github.com/iamdami/TIL/blob/main/objectTracking/A%20survey%20on%20Moving%20Object%20Detection%20and%20Tracking%20Methods_review.pdf)  
 
 ## MSCOCO Keypoint Detection
 - [SOTA keypoint-detection-on-coco](https://paperswithcode.com/sota/keypoint-detection-on-coco)  
