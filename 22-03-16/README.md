@@ -1,7 +1,0 @@
-- [Softmax function](https://syj9700.tistory.com/38)  
-- [Sigmoid, Logit and Softmax](https://chacha95.github.io/2019-04-04-logit/)  
-  - 딥러닝 모델의 마지막 노드들에 출력 값 바꿀 때 logit 함수와 softmax 쓰는 이유  
-- [딥러닝 신경망 구현 - 출력층, 항등함수, 소프트맥스, 분류, 회귀](https://yaneodoo2.tistory.com/entry/05-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%8B%A0%EA%B2%BD%EB%A7%9D-%EA%B5%AC%ED%98%84-%EA%B8%B0%EC%B4%88%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83)  
-  - 회귀에서 항등함수 쓰는 이유  
-- [Activation Function](https://junstar92.tistory.com/122)  
-  - 활성화함수에 비선형함수 써야하는 이유  
