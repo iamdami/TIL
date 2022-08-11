@@ -272,3 +272,12 @@ This process is repeated until there are no more proposals left in B.
 CenterMask paper에 등장  
 - 예측한 Mask의 quality 고려해 classification score 재조정하는 방법  
 - [Mask Scoring - paper review](https://junha1125.github.io/blog/artificial-intelligence/2021-03-09-MaskScore/)  
+
+## RefineDet
+- [RefineDet paper review](https://junha1125.github.io/blog/artificial-intelligence/2021-02-03-RefineDetwithCode/)  
+<br>
+
+## DenseNet
+- [DenseNet paper review1](https://123okk2.tistory.com/184)  
+- [DenseNet paper review2](https://towardsdatascience.com/review-densenet-image-classification-b6631a8ef803)  
+<br>
