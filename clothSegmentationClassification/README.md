@@ -44,3 +44,17 @@ Cloth Segmentation and Classification
 - [Segment clothes](https://clothssegmentation.herokuapp.com/)  
   직접 넣은 input image에 대한 Segmentation 결과 볼 수 있는 웹앱  
   
+## Clothing Detection
+- [Clothing Detection for Fashion Recommendation](https://valohai.com/blog/clothes-detection-for-fashion-recommendation/)  
+
+## instance segmentation
+- [instance segmentation](https://ganghee-lee.tistory.com/44)  
+
+## Detection dataset
+- [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)  
+  - dataset containing around 800K diverse fashion images with their rich annotations (46 categories, 1,000 descriptive attributes, bounding boxes and landmark information) ranging from well-posed product images to real-world-like consumer photos.  
+- [DeepFashion SOTA](https://paperswithcode.com/dataset/deepfashion)  
+
+## Color recognition
+Color recognition 으로 서치하니까 좀 더 괜찮은 아이디어들이 많은 것 같당  
+- [Color recognition](https://github.com/ahmetozlu/color_recognition)  
