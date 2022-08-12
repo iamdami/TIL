@@ -22,6 +22,7 @@ While in terms of computing the background subtraction method is faster in detec
 - [SORT - blog review](https://mickael-k.tistory.com/48)  
 - [Yolov5_StrongSORT_OSNet Evaluation(with other SOTA online trackers](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet/wiki/Evaluation)  
 - [Object Tracking - quick guide](https://cv-tricks.com/object-tracking/quick-guide-mdnet-goturn-rolo/)  
+- [object-tracking-deepsort](https://nanonets.com/blog/object-tracking-deepsort/)  
 
 ## Background substraction
 - [background substraction pdf](https://www.dsi.unive.it/~atorsell/Visione/12-background%20subtraction.pdf)  
