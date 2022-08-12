@@ -1,0 +1,1 @@
+- [Used to delete all network mapped drives] **net use * /d**  
