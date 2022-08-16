@@ -54,6 +54,10 @@ While in terms of computing the background subtraction method is faster in detec
 - [deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch)  
 <br>
 
+## Evaluation MOT
+- https://visailabs.com/evaluating-multiple-object-tracking-accuracy-and-performance-metrics-in-a-real-time-setting/  
+- 
+
 ## 지능형 영상분석 폭력 탐지
 - [지능형 영상분석을 통한 폭력 비폭력 구분](https://eehoeskrap.tistory.com/216)  
   - 객체의 형태가 심하게 변화하는 특징을 이용해 화면상의 객체 크기 및 변화 횟수 급격히 증가하면 폭력 발생으로 간주  
