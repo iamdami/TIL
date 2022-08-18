@@ -1,6 +1,3 @@
-- [debugging-deep-learning-model-training](https://neptune.ai/blog/debugging-deep-learning-model-training)  
-- [an-introduction-to-convolutional-neural-networks](https://towardsdatascience.com/an-introduction-to-convolutional-neural-networks-eb0b60b58fd7)  
-<br>
 
 ## argparse
 - [argparse 사용법](https://brownbears.tistory.com/413)  
