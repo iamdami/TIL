@@ -1,13 +1,17 @@
 import json, cv2
 import os
 
-jsonPath = "annotations/instances_train2017.json"
+labelID = int(input("Enter COCO labelID: "))
+categoryID = int(input("Enter categoryID: "))
+dirName = str(input("Enter dirName: "))
+
+jsonPath = "../coco_dataset/annotations/instances_train2017.json"
 
 with open(jsonPath, 'r') as f:
     readJson = f.read()
 
 loadJson = json.loads(readJson)
-catIDList = [1, 3]  # coco object category label id('person', 'car')
+catIDList = [labelID]  # coco object category label id
 
 for anno in loadJson['annotations']:
     catID = anno['category_id']
@@ -15,7 +19,7 @@ for anno in loadJson['annotations']:
     imgID = anno['image_id']
     if catID in catIDList:
         imgName = f"{str(imgID).zfill(12)}.jpg"
-        readImg = cv2.imread(f"images/train/{imgName}")
+        readImg = cv2.imread(f"../coco_dataset/images/train2017/{imgName}")
         h, w, c = readImg.shape
 
         float_minX, float_minY, float_width, float_height = anno['bbox']
@@ -37,14 +41,14 @@ for anno in loadJson['annotations']:
 
         txtFileName = f"{str(imgID).zfill(12)}.txt"
         labelPT = " ".join(list(map(str, bboxPT)))
-        writeTxt = f"{catID} {labelPT}"
+        writeTxt = f"{categoryID} {labelPT}"
 
         print(f"Text File Name: {txtFileName}")
         print(f"Text: {writeTxt}")
         
         # check if the file overlapped or not
-        if not os.path.exists(f"TrainImg/{imgName}"):
-            cv2.imwrite(f"TrainImg/{imgName}", readImg)
+        if not os.path.exists(f"{dirName}/{imgName}"):
+            cv2.imwrite(f"{dirName}/{imgName}", readImg)
 
-        with open(f"TrainLabel/{txtFileName}", 'a') as f:
+        with open(f"{dirName}/{txtFileName}", 'a') as f:
             f.write(f"{writeTxt}\n")
