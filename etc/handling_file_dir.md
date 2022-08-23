@@ -1,21 +1,3 @@
-## fatal error: Python.h: No such file or directory  
-
-<pre>
-pycocotools/_mask.c:4:10: fatal error: Python.h: No such file or directory
-          4 | #include "Python.h"
-            |          ^~~~~~~~~~
-      compilation terminated.
-      error: command '/usr/bin/x86_64-linux-gnu-gcc' failed with exit code 1
-      [end of output]
-  
-  note: This error originates from a subprocess, and is likely not a problem with pip.
-  ERROR: Failed building wheel for pycocotools
-Failed to build pycocotools
-ERROR: Could not build wheels for pycocotools, which is required to install pyproject.toml-based projects
-</pre>
-
-https://stackoverflow.com/questions/21530577/fatal-error-python-h-no-such-file-or-directory  
-
 ## 파일, 디렉토리 다루기  
 1. 파일 목록 얻기  
 (1) glob.glob(wildcard) - 유닉스 경로명 패턴 스타일로 파일 목록을 얻을 수 있다.  
@@ -41,7 +23,4 @@ os.path.basename(filename) - 파일명만 추출
 os.path.dirname(filename) - 디렉토리 경로 추출  
 os.path.split(filename) - 경로와 파일명을 분리  
 os.path.splitdrive(filename) - 드라이브명과 나머지 분리 (MS Windows의 경우)  
-os.path.splitext(filename) - 확장자와 나머지 분리  
 
-## MSCOCO label class 80? 91?
-https://eehoeskrap.tistory.com/368
