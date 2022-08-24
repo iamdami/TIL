@@ -27,9 +27,6 @@ Today I Learned..
 
 ## MSCOCO headling
 - [**coco label list**](https://github.com/iamdami/TIL/blob/main/COCO/labelList)  
-- [coco dataset download on terminal](https://gist.github.com/mkocabas/a6177fc00315403d31572e17700d7fd9?permalink_comment_id=4172927#gistcomment-4172927)  
-- [[repo] coco dataset specific classes extractor(coco api)](https://github.com/iamdami/TIL/tree/main/22-06-16#coco-dataset-specific-classes-extractor)  
-  - continuously getting requests error...
 - [**just use this!!!** to parsing json data(without coco api)](https://github.com/iamdami/TIL/blob/main/22-06-22/coco_specific_dataset_json_parsing.py)  
 
 ## Vision Transformer(ViT)  
