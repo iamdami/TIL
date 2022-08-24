@@ -13,7 +13,7 @@ Today I Learned..
 - [data.world](https://data.world/datasets)  
 
 ## Annotation format converter
-- [[repo] convert_format](https://github.com/iamdami/TIL/tree/main/22-06-15/convert_format)  
+- [[repo] convert_format](https://github.com/iamdami/TIL/tree/main/objectDetection/convert_format)  
   - coco -> .csv  
   - .csv -> coco  
   - .csv -> yolo  
@@ -27,17 +27,17 @@ Today I Learned..
 
 ## MSCOCO headling
 - [**coco label list**](https://github.com/iamdami/TIL/blob/main/COCO/labelList)  
-- [**just use this!!!** to parsing json data(without coco api)](https://github.com/iamdami/TIL/blob/main/22-06-22/coco_specific_dataset_json_parsing.py)  
+- [**just use this!!!** to parsing json data(without coco api)](https://github.com/iamdami/TIL/blob/main/COCO/coco_specific_dataset_json_parsing.py)  
 
 ## Vision Transformer(ViT)  
-- [[repo] ViT](https://github.com/iamdami/TIL/blob/main/22-06-29/README.md)  
+- [[repo] ViT](https://github.com/iamdami/TIL/blob/main/AI/ViT.md)  
 
 ## Pedstrian  
-- [interests, relevant datasets](https://github.com/iamdami/TIL/blob/main/22-07-14/README.md)  
+- [interests, relevant datasets](https://github.com/iamdami/TIL/blob/main/PAR/README.md)  
 
 ## Paper Review
-- [ViT_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/ViT_paperReview.pdf)  
-- [Transformer_paperReview](https://github.com/iamdami/TIL/blob/main/22-07-04/transformer%20paperReview.pdf)  
+- [ViT_paperReview](https://github.com/iamdami/TIL/blob/main/AI/ViT_paperReview.pdf)  
+- [Transformer_paperReview](https://github.com/iamdami/TIL/blob/main/AI/transformer%20paperReview.pdf)  
 - [A survey on Moving Object Detection and Tracking Methods_review](https://github.com/iamdami/TIL/blob/main/objectTracking/A%20survey%20on%20Moving%20Object%20Detection%20and%20Tracking%20Methods_review.pdf)  
 
 ## MSCOCO Keypoint Detection
