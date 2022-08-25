@@ -8,10 +8,6 @@ Today I Learned..
 ## json parser  
 - [json parser](http://json.parser.online.fr/)  
 
-## sites for getting dataset  
-- [zdataset](https://zdataset.com/)  
-- [data.world](https://data.world/datasets)  
-
 ## Annotation format converter
 - [[repo] convert_format](https://github.com/iamdami/TIL/tree/main/objectDetection/convert_format)  
   - coco -> .csv  
@@ -28,9 +24,6 @@ Today I Learned..
 ## MSCOCO headling
 - [**coco label list**](https://github.com/iamdami/TIL/blob/main/COCO/labelList)  
 - [**just use this!!!** to parsing json data(without coco api)](https://github.com/iamdami/TIL/blob/main/COCO/coco_specific_dataset_json_parsing.py)  
-
-## Vision Transformer(ViT)  
-- [[repo] ViT](https://github.com/iamdami/TIL/blob/main/AI/ViT.md)  
 
 ## Pedstrian  
 - [interests, relevant datasets](https://github.com/iamdami/TIL/blob/main/PAR/README.md)  
@@ -50,3 +43,5 @@ Today I Learned..
 ## [Pytube](https://github.com/pytube/pytube)  
 <pre>$ pytube https://youtube.com/watch?v= </pre>
 
+## Data Handling
+- [[code] Match image data and label data](https://github.com/iamdami/TIL/blob/main/python/dataHandling_rm_files_difference.py)  
