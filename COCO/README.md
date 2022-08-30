@@ -1,5 +1,5 @@
 ## download specific part of COCO dataset
-- https://stackoverflow.com/questions/51100191/how-can-i-download-a-specific-part-of-coco-dataset  
+- [[repo] It's the end!!!](https://github.com/iamdami/TIL/blob/main/COCO/jsonParsing_COCO_checkOverlapping.py)  
 
 ## FiftyOne
 The FiftyOne App is a graphical user interface that makes it easy to explore and rapidly gain intuition into your datasets.  
