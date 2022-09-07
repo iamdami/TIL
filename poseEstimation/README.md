@@ -1,4 +1,4 @@
-# pose-estimation
+# pose estimation
 
 ## Paper
 - [The Modified Fall Detection Algorithm based on YOLO-KCF for Elderly Living Alone Care](https://koreascience.kr/article/JAKO202020941738300.view?orgId=anpor&hide=breadcrumb,journalinfo)  
