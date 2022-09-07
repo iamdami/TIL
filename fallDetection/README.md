@@ -5,9 +5,14 @@
 - [The Dataset and Baseline Models to Detect Human Postural States Robustly against Irregular Postures](https://ieeexplore.ieee.org/document/9663782/)  
 
 ## references
+- [[paperswithcode] pose-estimation](https://paperswithcode.com/task/pose-estimation)  
 - [automatic-fall-detection-systems-using-computer-vision](https://neuralet.com/article/building-automatic-fall-detection-systems-using-computer-vision)  
   [review for article above korean ver.](https://github.com/iamdami/TIL/blob/main/fallDetection/FD_using_poseEstination_motionDetection.md)  
 - [comprehensive-guide-on-human-pose-estimation](https://www.analyticsvidhya.com/blog/2022/01/a-comprehensive-guide-on-human-pose-estimation/)  
+- [[Latest research trends] Human Pose Estimation(on 2019)](https://eehoeskrap.tistory.com/329?category=705415)  
+
+## AlphaPose
+- [summary](https://eehoeskrap.tistory.com/299)  
 
 ## Dataset
 - [URFD](http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html)  
