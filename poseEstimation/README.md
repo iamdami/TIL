@@ -27,6 +27,11 @@
 - [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/#overview)  
 - [VGG dataset](https://www.robots.ox.ac.uk/~vgg/data/pose_evaluation/)  
 
+## references
+- [custom-keypoint-detection-model-with-pytorch](https://medium.com/@alexppppp/how-to-train-a-custom-keypoint-detection-model-with-pytorch-d9af90e111da)  
+- [how-to-annotate-keypoints-using-roboflow](https://medium.com/@alexppppp/how-to-annotate-keypoints-using-roboflow-9bc2aa8915cd)  
+- [[repo] keypoint_rcnn_training_pytorch](https://github.com/alexppppp/keypoint_rcnn_training_pytorch)  
+
 ## keywords
 irregular postures  
 upright postures  
