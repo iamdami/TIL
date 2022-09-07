@@ -2,10 +2,12 @@
 
 ## Paper
 - [The Modified Fall Detection Algorithm based on YOLO-KCF for Elderly Living Alone Care](https://koreascience.kr/article/JAKO202020941738300.view?orgId=anpor&hide=breadcrumb,journalinfo)  
+- [The Dataset and Baseline Models to Detect Human Postural States Robustly against Irregular Postures](https://ieeexplore.ieee.org/document/9663782/)  
 
 ## references
 - [automatic-fall-detection-systems-using-computer-vision](https://neuralet.com/article/building-automatic-fall-detection-systems-using-computer-vision)  
   [review for article above korean ver.](https://github.com/iamdami/TIL/blob/main/fallDetection/FD_using_poseEstination_motionDetection.md)  
+- [comprehensive-guide-on-human-pose-estimation](https://www.analyticsvidhya.com/blog/2022/01/a-comprehensive-guide-on-human-pose-estimation/)  
 
 ## Dataset
 - [URFD](http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html)  
@@ -15,3 +17,9 @@
   Use 2 MS Kinect cameras and corresponding accelerometer data to record the fall event.
   </pre>
 - [UDFD dataset review](https://blog.actorsfit.com/a?ID=01800-fb9c95b5-d2ce-45af-af53-eb98f4ab1204)  
+
+## keywords
+irregular postures  
+upright postures  
+Irregular Human Posture  
+postural state estimation  
