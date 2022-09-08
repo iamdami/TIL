@@ -1,3 +1,7 @@
+## datasets
+- [lfw elderly people - 100](https://github.com/iamdami/TIL/blob/main/etc/lfw_elders_100.zip)  
+  original dataset : http://vis-www.cs.umass.edu/lfw/
+
 ### .m file
 - An M file is a text file used by MATLAB, an application used for mathematical computations. It can store a script, class, or an individual function in the MATLAB language. M files are used for executing algorithms, plotting graphs, and performing other mathematical operations.  
 <br>
