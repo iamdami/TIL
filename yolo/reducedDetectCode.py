@@ -39,6 +39,8 @@ def main():
                 for *xyxy, conf, cls in reversed(det):
                     xyxy = list(map(int, xyxy))
                     print(xyxy)
+                    # recImg = cv2.rectangle(im0, (xyxy[0], xyxy[1]), (xyxy[2], xyxy[3]), (255, 0, 0), 3)
+                    # cv2.imwrite("./a.jpg", recImg)
                 pass
 
     return pointList
