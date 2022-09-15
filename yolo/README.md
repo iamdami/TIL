@@ -1,10 +1,4 @@
-- [YOLOv5 in PyTorch - Train Custom Data #1](https://damio.tistory.com/97)  
-- [YOLOv5 in PyTorch - Train Custom Data #2](https://damio.tistory.com/98)  
-
-블로그에 정리해 두었다!  
-  
-Reference
-===
+## Train YOLOv5 On a Custom Data
 - [YOLOv5 Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)  
 - [PyTorch get started](https://pytorch.org/get-started/locally/)  
 - [YOLOv5 Documentation - Train Custom Data](https://docs.ultralytics.com/tutorials/train-custom-datasets/)  
