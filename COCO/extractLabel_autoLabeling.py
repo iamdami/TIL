@@ -23,7 +23,7 @@ for idx, anno in enumerate(loadJson['annotations']):
     imgID = anno['image_id']  # image name
     if catID in catIDList:
         imgName = f"{str(imgID).zfill(12)}.jpg"
-        readImg = cv2.imread(f"/coco/images/train/{imgName}")
+        readImg = cv2.imread(f"/home/oms/Desktop/dami/cocoToYoloFormat/images/train/{imgName}")
 
         h, w, c = readImg.shape
         float_minX, float_minY, float_width, float_height = anno['bbox']
@@ -63,9 +63,9 @@ for savedTruckImgName in savedTruckImgNameList:
     src = os.path.join("plateTruck_images", savedTruckImgName) 
     txtName = savedTruckImgName.replace(".jpg", ".txt")
     
-    dataset = LoadImages(readImg, img_size = imgsz, stride = stride, auto = pt)
+    dataset = LoadImages(src, img_size = imgsz, stride = stride, auto = pt)
 
-    for path, im, im0s in dataset:
+    for path, im, im0s,_,_ in dataset:
         im = torch.from_numpy(im).to(torch.device("cuda:0"))
         im = im.float()
         im /= 255
