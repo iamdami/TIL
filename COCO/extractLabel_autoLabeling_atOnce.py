@@ -80,7 +80,7 @@ for labels_txt_file_name in labels_txt_file_name_list:
         continue
     else:
         # detect plate
-        imgName = labels_txt_file_name.replace(".txt", "jpg")
+        imgName = labels_txt_file_name.replace(".txt", ".jpg")
         img_path = os.path.join("4labels_coco_imgs", imgName)
         dataset = LoadImages(img_path, img_size = imgsz, stride = stride, auto = pt)
 
