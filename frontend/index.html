@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2023 Bucket List</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+      * {
+        font-family: "Nanum Pen Script", cursive;
+      }
+      html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .title {
+        color: white;
+        font-weight: bold;
+        background-color: #da90ac;
+        font-size: 24px;
+        padding: 4px 14px;
+        border-radius: 8px;
+        text-align: center;
+      }
+      .bg {
+        width: 360px;
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+      }
+      .msg {
+        font-weight: bold;
+        text-align: center;
+        margin: -10px 0 30px;
+        color: black;
+        font-size: 18px;
+      }
+      .bucket {
+        width: 160px;
+        height: 80px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        margin: 8px;
+        position: relative;
+        /* font-weight: bold; */
+        font-size: 16px;
+        word-break: keep-all;
+      }
+      /* .img1 {
+        background-image: url("https://www.pngmart.com/files/6/Tape-PNG-Photo.png");
+        background-size: cover;
+      } */
+      .img2 {
+        background-image: url("https://www.pngmart.com/files/22/Aesthetic-Theme-Retro-PNG-Transparent.png");
+        background-size: cover;
+      }
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .wrap {
+        flex-wrap: wrap;
+      }
+      .done::after {
+        content: "";
+        width: 50%;
+        height: 100%;
+        background-image: url("https://e7.pngegg.com/pngimages/109/518/png-clipart-hello-kitty-logo-merchandising-invitations-pattern-miscellaneous-smiley-thumbnail.png");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 10%;
+        opacity: 0.6;
+        border-radius: 40px;
+      }
+    </style>
+  </head>
+  <body class="bg center">
+    <h1 class="title">2023 Bucket List</h1>
+    <br />
+    <p class="msg">🐰 stay hungry to be free 🐰</p>
+    <div class="row flex-row wrap">
+      <div class="bucket img2 center done">매일 5분 저널 작성한다</div>
+      <div class="bucket img2 center">매일 아침 10분 스트레칭한다</div>
+      <div class="bucket img2 center">내 사업 시작한다</div>
+      <div class="bucket img2 center">한 달에 20권 책 읽고 기록한다</div>
+      <div class="bucket img2 center">짧은 여행이라도 3번 이상 간다</div>
+      <div class="bucket img2 center">유튜브 시작한다</div>
+      <div class="bucket img2 center">일주일에 3번 30분 이상 운동한다</div>
+      <div class="bucket img2 center">자격증 1개 이상 취득한다</div>
+    </div>
+  </body>
+</html>
