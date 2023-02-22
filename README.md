@@ -2,7 +2,7 @@
 Today I Learned..
 <br>
 
-## site for comparing two source codes
+## Site for comparing two source codes
 - [diffchecker](https://www.diffchecker.com/diff)  
 
 ## json parser  
@@ -16,9 +16,9 @@ Today I Learned..
   - json -> yolo  
   - yolo -> .csv  
   - pascal voc also included in the link to site on README.md  
-  - [pascal voc -> yolo](https://towardsdatascience.com/convert-pascal-voc-xml-to-yolo-for-object-detection-f969811ccba5)  
+  - [pascal voc -> yolo](https://towardsdatascience.com/convert-pascal-voc-xml-to-yolo-for-object-detection-f969811ccba5) 
 
-## test
+## Test
 - [draw rectangle yolo bbox value](https://github.com/iamdami/TIL/blob/main/22-06-13/YoloRecImg.py)  
 
 ## MSCOCO headling
